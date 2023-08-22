@@ -1,8 +1,10 @@
 // ctr+d is EOF
 
-# include<stdio.h>
+# include <stdio.h>
 
 int main() {
+	
+
 /*
 	// 1.5.3 Line Counting
 	int c, nl;
@@ -23,11 +25,16 @@ int main() {
 	printf("%.0f\n", nc);
 */
 
+/*
 	// 1.5.1 - File Copying
 	int c; 
-	while((c = getchar()) != EOF) {
+	while((c = getchar() != EOF)) {
 		putchar(c);
+
+		printf("%d\n", c);
 	}
 
+	printf("%d\n", c);
 	return 0;
+*/
 }
